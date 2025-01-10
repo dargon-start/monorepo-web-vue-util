@@ -1,2 +1,3 @@
-# monorepo-web-vue-util
-vue项目模版，包括项目模版、stylelint、eslint等配置模版
+# imc-devcie-prd-web-util
+
+使用monorepo架构，存放eslint、stylelint等配置，存放设备团队前端脚手架项目，以及后续开发的一些工具

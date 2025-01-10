@@ -1,0 +1,64 @@
+.qbee-theme__dark {
+  // 主题色 && 辅助色
+  --cs-color_primary: #177DDC;
+  --cs-primary_hover: #389EFE;
+  --cs-primary_loading: #1B5992;
+  --cs-component_hover_bg: rgb(255, 255, 255, 14%);
+  --cs-color_secondary: #E26500;
+
+  // 功能色
+  --cs-warning: #DCA436;
+  --cs-warning_bg: #38352B;
+  --cs-error: #E04C4C;
+  --cs-error_bg: #39232F;
+  --cs-error_hover: #FF6666;
+  --cs-success: #63B53A;
+  --cs-success_bg: #20382C;
+  --cs-interactive: #2676E7;
+  --cs-interactive_bg: #0C2853;
+
+  // 中性色
+  --cs-gray1: rgb(255, 255, 255, 85%);
+  --cs-gray2: rgb(255, 255, 255, 65%);
+  --cs-gray3: rgb(255, 255, 255, 45%);
+  --cs-gray4: rgb(255, 255, 255, 30%);
+  --cs-gray5: rgb(255, 255, 255, 30%);
+  --cs-border1: rgb(255, 255, 255, 40%);
+  --cs-border2: rgb(255, 255, 255, 20%);
+  --cs-border_bg2: rgb(255, 255, 255, 20%);
+  --cs-divider: rgb(255, 255, 255, 12%);
+  --cs-white1: rgb(255, 255, 255, 85%);
+  --cs-white2: rgb(255, 255, 255, 55%);
+  --cs-mask1: rgb(0, 0, 0, 50%);
+  --cs-mask2: #000000;
+
+  // 内容背景 页面内容背景色
+  --cs-nav_bg1: #1C2536;
+  --cs-nav_bg2: #2D3645;
+  --cs-nav_bg3: #3C4352;
+  --cs-module_bg1: rgb(255, 255, 255, 8%);
+  --cs-module_bg2: rgb(255, 255, 255, 4%);
+  --cs-module_bg3: #262D3D;
+  --cs-module_bg4: rgb(255, 255, 255, 8%);
+  --cs-module_bg5: #262C39;
+  --cs-module_bg6: #0F1929;
+  --cs-module_bg7: #0F1929;
+  --cs-module_bg8: #0F1929;
+  --cs-module_bg9: #2D3747;
+  --cs-button_gray_bg1: #323D4E;
+  --cs-button_gray_bg2: #48566A;
+
+  // shadow
+  --cs-shadow1-color: rgb(0, 0, 0, 20%);
+  --cs-shadow2-color: rgb(0, 0, 0, 30%);
+  --cs-shadow3-color: rgb(0, 0, 0, 30%);
+
+  // chart color
+  --cs-chart_yellow: #DCA436;
+  --cs-chart_green1: #63B53A;
+  --cs-chart_green2: #63B53A;
+  --cs-chart_purple: #8E57DA;
+  --cs-chart_rose_red: #DF2D8F;
+  --cs-chart_red: #E04C4C;
+
+}

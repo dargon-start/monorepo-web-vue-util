@@ -1,0 +1,64 @@
+.qbee-theme__default {
+  // 主题色 && 辅助色
+  --cs-color_primary: #697DFF;
+  --cs-primary_hover: #5464CC;
+  --cs-primary_loading: #A5B1FF;
+  --cs-component_hover_bg: #F0F7FF;
+  --cs-color_secondary: #FC7100;
+
+  // 功能色
+  --cs-warning: #FAAD14;
+  --cs-warning_bg: #FFFBE6;
+  --cs-error: #FF3333;
+  --cs-error_bg: #FFEAEA;
+  --cs-error_hover: #CC3333;
+  --cs-success: #52C41A;
+  --cs-success_bg: #EDF9E8;
+  --cs-interactive: #0062FF;
+  --cs-interactive_bg: #E5EFFF;
+
+  // 中性色
+  --cs-gray1: #222222;
+  --cs-gray2: rgb(34, 34, 34, 75%);
+  --cs-gray3: rgb(34, 34, 34, 55%);
+  --cs-gray4: rgb(34, 34, 34, 40%);
+  --cs-gray5: rgb(34, 34, 34, 35%);
+  --cs-border1: #A1A1A1;
+  --cs-border2: #D9D9D9;
+  --cs-border_bg2: #D9D9D9;
+  --cs-divider: #E6E6E6;
+  --cs-white1: #FFFFFF;
+  --cs-white2: rgb(255, 255, 255, 55%);
+  --cs-mask1: rgb(0, 0, 0, 50%);
+  --cs-mask2: #000000;
+
+  // 内容背景 页面内容背景色
+  --cs-nav_bg1: #40495D;
+  --cs-nav_bg2: #373C50;
+  --cs-nav_bg3: #303546;
+  --cs-module_bg1: #F5F6FA;
+  --cs-module_bg2: #FAFAFA;
+  --cs-module_bg3: #FFFFFF;
+  --cs-module_bg4: #EDEFF3;
+  --cs-module_bg5: #FFFFFF;
+  --cs-module_bg6: #FFFFFF;
+  --cs-module_bg7: #F5F6FA;
+  --cs-module_bg8: #FFFFFF;
+  --cs-module_bg9: #FFFFFF;
+  --cs-button_gray_bg1: #F3F4F6;
+  --cs-button_gray_bg2: #E9EBF0;
+
+  // shadow
+  --cs-shadow1-color: rgb(0, 0, 0, 5%);
+  --cs-shadow2-color: rgb(0, 0, 0, 12%);
+  --cs-shadow3-color: rgb(0, 0, 0, 12%);
+
+  // chart color 
+  --cs-chart_yellow: #FAAD14;
+  --cs-chart_green1: #52C41A;
+  --cs-chart_green2: #02AD91;
+  --cs-chart_purple: #722ED1;
+  --cs-chart_rose_red: #EB2F96;
+  --cs-chart_red: #FF3333;
+
+}

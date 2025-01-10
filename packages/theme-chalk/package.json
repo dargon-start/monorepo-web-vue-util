@@ -1,0 +1,30 @@
+{
+  "name": "@monorepo-web-vue-util/theme-chalk",
+  "version": "0.1.0",
+  "description": "公共主题配置，包含亮色、暗色主题",
+  "keywords": [
+    "theme-chalk",
+    "theme-light",
+    "theme-dark"
+  ],
+  "main": "index.css",
+  "unpkg": "index.css",
+  "jsdelivr": "index.css",
+  "style": "index.css",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "gulp"
+  },
+  "type": "module",
+  "devDependencies": {
+    "cssnano": "^7.0.6",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-sass": "^6.0.0",
+    "postcss": "^8.4.49",
+    "sass": "^1.43.4"
+  }
+}
