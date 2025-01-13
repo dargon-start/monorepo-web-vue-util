@@ -19,8 +19,5 @@
     "inquirer": "^8.2.1",
     "ora": "^5.0.0",
     "parse-git-config": "^3.0.0"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
   }
 }
