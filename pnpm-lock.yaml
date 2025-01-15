@@ -66,6 +66,15 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
 
+  packages/lz-template-cli:
+    dependencies:
+      chalk:
+        specifier: ^4.0.0
+        version: 4.1.2
+      fs-extra:
+        specifier: ^11.2.0
+        version: 11.2.0
+
   packages/stylelint-config:
     dependencies:
       stylelint:
@@ -119,9 +128,6 @@ importers:
       pinia:
         specifier: ^2.3.0
         version: 2.3.0(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
-      vite-plugin-vue-devtools:
-        specifier: ^7.7.0
-        version: 7.7.0(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.2)(sass@1.83.0))(vue@3.5.13(typescript@5.7.2))
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.2)
@@ -132,6 +138,9 @@ importers:
       vite:
         specifier: ^6.0.5
         version: 6.0.7(@types/node@22.10.2)(sass@1.83.0)
+      vite-plugin-vue-devtools:
+        specifier: ^7.7.0
+        version: 7.7.0(rollup@4.30.1)(vite@6.0.7(@types/node@22.10.2)(sass@1.83.0))(vue@3.5.13(typescript@5.7.2))
 
 packages:
 
