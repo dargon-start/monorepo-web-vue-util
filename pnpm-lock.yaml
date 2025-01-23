@@ -71,9 +71,36 @@ importers:
       chalk:
         specifier: ^4.0.0
         version: 4.1.2
+      commander:
+        specifier: ^11.1.0
+        version: 11.1.0
+      download-git-repo:
+        specifier: ^3.0.2
+        version: 3.0.2
+      ejs:
+        specifier: ^3.1.9
+        version: 3.1.10
+      figlet:
+        specifier: ^1.7.0
+        version: 1.8.0
       fs-extra:
         specifier: ^11.2.0
         version: 11.2.0
+      git-config-path:
+        specifier: ^2.0.0
+        version: 2.0.0
+      git-user-name:
+        specifier: ^2.0.0
+        version: 2.0.0
+      inquirer:
+        specifier: ^8.2.1
+        version: 8.2.6
+      ora:
+        specifier: ^5.0.0
+        version: 5.4.1
+      parse-git-config:
+        specifier: ^3.0.0
+        version: 3.0.0
 
   packages/stylelint-config:
     dependencies:

@@ -5,6 +5,10 @@ const chalk = require("chalk");
 const inquirer = require("inquirer");
 const path = require("path");
 
+const Creator = require("./creator");
+
+const { loading } = require("./util");
+
 module.exports = async (projectName, option) => {
   // 获取当前目录
   const targetDirectory = path.join(process.cwd(), projectName);
@@ -25,18 +29,19 @@ module.exports = async (projectName, option) => {
           ],
         },
       ]);
-    }
 
-    if (!isOverwrite) {
-      console.log("cancel");
-      return;
+      if (!isOverwrite) {
+        console.log("cancel");
+        return;
+      }
+
+      // 清除旧项目
+      await loading(
+        chalk.green(`removing ${projectName}`),
+        fs.remove,
+        targetDirectory
+      );
     }
-    // 清除旧项目
-    await loading(
-      chalk.green(`removing ${projectName}`),
-      fs.remove,
-      targetDirectory
-    );
   }
 
   // 创建项目
