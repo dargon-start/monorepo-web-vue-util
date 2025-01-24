@@ -1,5 +1,5 @@
 {
-  "name": "lz-template-cli",
+  "name": "@monorepo-web-vue-util/lz-template-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
