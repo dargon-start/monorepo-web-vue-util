@@ -2,6 +2,7 @@
 import { storeToRefs } from 'pinia'
 import { useMainStore } from '@/store'
 
+
 const mainStore = useMainStore()
 
 const { count, doubleCount } = storeToRefs(mainStore)
@@ -9,14 +10,19 @@ const { increment } = mainStore
 </script>
 
 <template>
-  <div>
+  <div class="qbee-theme__dark">
     <div @click="increment">点击</div>
     <div>次数：{{ count }}</div>
     <div>双倍次数：{{ doubleCount }}</div>
+    <div class="ziti">测试样式</div>
   </div>
 </template>
 
 <style scoped>
+
+.ziti{
+  color: var(--cs-color_primary);
+}
 .logo {
   height: 6em;
   padding: 1.5em;
