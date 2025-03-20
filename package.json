@@ -5,7 +5,9 @@
   "keywords": [
     "eslint-config",
     "stylelint-config",
-    "imc-device-prd-cli"
+    "theme-chalk",
+    "lz-template-cli",
+    "vue-template"
   ],
   "author": "longzai",
   "homepage": "https://github.com/dargon-start/monorepo-web-vue-util",
