@@ -41,6 +41,7 @@ async function fetchTemplate(config, destPath, projectName) {
       spinner.succeed(`${chalk.gray("download repository success!")}`);
       console.log(tempPath, "tempPath");
 
+      // 返回模版路径
       resolve(`${tempPath}/packages/vue-template`);
     });
   });
