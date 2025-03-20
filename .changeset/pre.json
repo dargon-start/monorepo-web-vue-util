@@ -1,0 +1,14 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@monorepo-web-vue-util/eslint-config": "1.0.0",
+    "@monorepo-web-vue-util/lz-template-cli": "2.0.1-beta.0",
+    "@monorepo-web-vue-util/stylelint-config": "1.0.0",
+    "@monorepo-web-vue-util/theme-chalk": "1.0.0",
+    "@monorepo-web-vue-util/vue-template": "1.0.0"
+  },
+  "changesets": [
+    "tricky-radios-repair"
+  ]
+}

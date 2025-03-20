@@ -1,5 +1,17 @@
 # @monorepo-web-vue-util/lz-template-cli
 
+## 2.0.1-beta.1
+
+### Patch Changes
+
+- 测试预发布
+
+## 2.0.1-beta.0
+
+### Patch Changes
+
+- 测试预发布
+
 ## 2.0.0
 
 ### Major Changes
