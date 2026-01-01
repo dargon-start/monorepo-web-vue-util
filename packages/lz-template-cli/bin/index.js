@@ -2,12 +2,10 @@ const { Command } = require("commander");
 
 const chalk = require("chalk");
 const figlet = require("figlet");
+const { checkVersion } = require("../lib/checkUpdate");
 
 const program = new Command();
 
-console.log("====================================");
-console.log("🚀 lz-template-cli v1.0.0");
-console.log("====================================");
 
 program
   .command("create <project-name>")
@@ -15,6 +13,13 @@ program
   .option("-f, --force", "overwrite target directory if it exists")
   .action((projectName, cmd) => {
     require("../lib/init.js")(projectName, cmd);
+  });
+
+program
+  .command("update")
+  .description("update the CLI to the latest version")
+  .action(() => {
+    require("../lib/update.js")();
   });
 
 program.on("--help", function () {
@@ -30,3 +35,5 @@ program.on("--help", function () {
 });
 
 program.parse();
+
+         

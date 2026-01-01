@@ -3,6 +3,7 @@ const fs = require("fs-extra");
 const chalk = require("chalk");
 const inquirer = require("inquirer");
 const { exec } = require("child_process");
+const logSymbols = require("log-symbols");
 
 const { fetchTemplate } = require("./fetch-template");
 const { generatorFile } = require("./generator");
@@ -183,8 +184,8 @@ class Creator {
 
   confirmInfo() {
     if (this.installRes) {
-      console.log(chalk.green(`📚 finished!`));
-      console.log(chalk.green(`📚 let's go to work! 😝`));
+      console.log(chalk.green(logSymbols.success), chalk.green(`📚 finished!`));
+      console.log(chalk.green(logSymbols.success), chalk.green(`📚 let's go to work! 😝`));
     }
   }
 }

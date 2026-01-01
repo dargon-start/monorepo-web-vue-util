@@ -8,8 +8,12 @@ const path = require("path");
 const Creator = require("./creator");
 
 const { loading } = require("./util");
+const { checkVersion } = require("../lib/checkUpdate");
 
 module.exports = async (projectName, option) => {
+  // 检查更新
+  await checkVersion();
+
   // 获取当前目录
   const targetDirectory = path.join(process.cwd(), projectName);
 
